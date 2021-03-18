@@ -11,6 +11,6 @@ my_profile['interest'][2] = "gaming"
 my_profile['social'][2] = 'safri_p'
 my_profile['food'].pop(2)
 my_profile['food'].pop(1)
-print(my_profile['interest'])
+print("my hobby is", my_profile['interest'])
 print('the correct of my Line ID is', my_profile['social'][2])
 print("my favourite food right now is", my_profile['food'])

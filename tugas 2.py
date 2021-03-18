@@ -9,8 +9,9 @@ my_profile = {
 my_profile['interest'].append('pc enthusiast') #menambahkan hobi
 my_profile['interest'][2] = "gaming" #mengganti hobi
 my_profile['social'][2] = 'safri_p' #mengganti social media
-my_profile['food'].pop(2) #menghapus makanan favorit
-my_profile['food'].pop(1) #menghapus makanan favorit
+del my_profile['food'][1:]
 print("my hobby is", my_profile['interest'])
 print('the correct of my Line ID is', my_profile['social'][2])
 print("my favourite food right now is", my_profile['food'])
+
+

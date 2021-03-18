@@ -5,4 +5,3 @@ List.remove('fisika')
 print('list saat ini:', List)
 List.pop()
 print('list now', List)
-

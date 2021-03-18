@@ -6,11 +6,11 @@ my_profile = {
     'music': ['Faint', 'American Idiot', 'Starlight', 'Hymn for the Weekend'],
     'food': ['nasi padang', 'sate gule', 'tengkleng']
 }
-my_profile['interest'].append('pc enthusiast')
-my_profile['interest'][2] = "gaming"
-my_profile['social'][2] = 'safri_p'
-my_profile['food'].pop(2)
-my_profile['food'].pop(1)
+my_profile['interest'].append('pc enthusiast') #menambahkan hobi
+my_profile['interest'][2] = "gaming" #mengganti hobi
+my_profile['social'][2] = 'safri_p' #mengganti social media
+my_profile['food'].pop(2) #menghapus makanan favorit
+my_profile['food'].pop(1) #menghapus makanan favorit
 print("my hobby is", my_profile['interest'])
 print('the correct of my Line ID is', my_profile['social'][2])
 print("my favourite food right now is", my_profile['food'])
